@@ -1,0 +1,17 @@
+// UTILISATION DU my_printf  \\
+
+Test de la fonction avec la compilation :
+
+gcc main.c libmy.a
+
+./a.out
+
+Ceci affiche ce que vous avez entré dans le printf du main.c
+
+Il existe différents labels qui sont les suivants :
+
+%d %c %s %p %X %b %u %o %x %S %k.
+
+A vous de trouver leur utilité :)
+
+Indice : lib/my/printf.c
